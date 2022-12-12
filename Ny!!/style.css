@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display:flex;   
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    width: 40rem;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0px;
+}
+#screen{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    padding-right:1rem;
+    height:4rem;
+    width:40rem;
+    background: black;
+    color:green;
+    font:bold 2rem monospace;
+  }
+
+  div{
+    width: 25%;
+  }
+
+  button{
+    height: 4rem;
+    width: 25%;
+    gap: 0px;
+    font-size: 1rem;
+  }
+
+  
